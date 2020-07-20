@@ -1,0 +1,37 @@
+.sectionTab {
+      background-color: seashell;
+      padding: 10px 50px;
+      overflow-x: auto;
+}
+
+.table {
+      width: 100%;
+      border-collapse: collapse;
+}
+
+.table__caption {
+      text-align: left;
+      padding-top: 20px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 22px;
+}
+
+.table__tableRow:hover {
+      background-color: #d3a6a6;
+}
+
+.table__tableRow:nth-child(even) {
+      background-color: #D9D9D9;
+}
+
+.table__tableCell {
+      border: 1px solid #ccc;
+      padding: 25px;
+      text-align: center;
+}
+
+.table__tableHeader {
+      font-weight: normal;
+      background-color: #f5f1f1;
+}

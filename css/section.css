@@ -1,0 +1,13 @@
+.section {
+      background-color: seashell;
+      line-height: 1.4;
+      padding: 10px 50px;
+}
+
+.section__heading {
+      padding-top: 10px;
+}
+
+.section__paragraph {
+      text-align: justify;
+}

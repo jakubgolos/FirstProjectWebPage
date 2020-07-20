@@ -1,0 +1,36 @@
+.header {
+      max-width: 100%;
+      background-color: #f9f7ef;
+      padding: 25px 0px;
+}
+
+.header__heading {
+      text-align: center;
+      margin-bottom: -5px;
+}
+
+.header__subtitle {
+      text-align: center;
+      font-size: 14px;
+}
+
+.header__contain {
+      text-align: center;
+      margin-top: 20px;
+}
+
+.contain__button {
+      font-weight: bold;
+      border: none;
+      box-shadow: 0px 10px 8px #ccc;
+      margin: 0px 15px;
+      padding: 10px;
+}
+
+.contain__button:hover {
+      background-color: rgb(196, 184, 207);
+}
+
+.contain__button:active {
+      background-color: rgb(86, 37, 129);
+}

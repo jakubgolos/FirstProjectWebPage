@@ -8,7 +8,10 @@ let bmiElement = document.querySelector(".js-bmi");
 formElement.addEventListener("submit", (event) => {
       event.preventDefault();
 
+      let weight = weightElement.value;
+      let height = heightElement.value;
+      
       let bmi = weight / ((height / 100) ** 2);
 
-      bmiElement.innerText = bmi.toFixed(2);
+      bmiElement.innerText = bmi.toFixed(3);
 })
